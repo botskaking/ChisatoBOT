@@ -12,23 +12,23 @@
   "repository": "https://github.com/AliAryanTech/Chisato-WhatsApp.git",
   "success_url": "/",
   "env": {
-    "BOT_NAME": {
-        "description": "Name of your bot"
+    "ownerNumber": {
+        "description": "number"
     },
     "PREFIX": {
       "description": "Prefix of your bot"
     },
-    "SESSION": {
+    "timeZone": {
       "description": "A string for the session to be classified and to get access to the server endpoints"
     },
-    "MODS": {
+    "maintenance": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
       "required": false
     },
-    "MONGO_URI": {
+    "author": {
       "description": "A secret String for Mongodb Connection.(Required)"
     },
-    "CHAT_BOT_URL": {
+    "packname": {
       "description": "Your API key from Brainshop"
     }
   },
@@ -37,10 +37,10 @@
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      "url": ""
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      "url": ""
     }
   ]
   }
